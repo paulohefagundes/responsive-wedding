@@ -79,7 +79,6 @@ body {
     margin: 0 5%;
 }
 
-
 /* =============================================================================
    GOOGLE MAPS
    ========================================================================== */
@@ -113,6 +112,26 @@ body {
     color: #b1bf92;
     text-decoration: underline;
     outline: none;
+}
+
+/* ===================
+   Youtube iframe
+   =================== */
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%; /* 16:9 */
+    padding-top:25px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
 /* ===================
@@ -245,6 +264,8 @@ nav ul li a::-moz-focus-inner {border:0;}
    Brad's custom styles
    ========================================================================== */
 * { margin: 0; padding: 0; }
+
+/* TODO: fix mobile background */
 html {
     background: url(../img/bg-pic.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -317,7 +338,6 @@ section h2 {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
     body {
         background-position: 50% 20%;
     }
@@ -487,7 +507,6 @@ section h2 {
     }
 }
 @media only screen and (min-width: 900px) {
-
     section h1,
     section h2 {
         padding: 0 20px;
@@ -515,7 +534,6 @@ section h2 {
 
 
 @media only screen and (min-width: 1140px) {
-
 /* ===============
     Maximal Width
    =============== */
