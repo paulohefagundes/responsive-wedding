@@ -156,7 +156,7 @@ body {
     /* RGBa with 0.9 opacity */
     background: rgba(0, 0, 0, 0.8);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
+    /* filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000); */
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)";
 }
@@ -181,7 +181,7 @@ body {
     /* RGBa with 0.7 opacity */
     background: rgba(0, 0, 0, 0.4);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+    /* filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000); */
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
 }
@@ -307,7 +307,7 @@ section {
     /* RGBa with 0.7 opacity */
     background: rgba(0, 0, 0, 0.7);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+    /* filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000); */
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
 }
@@ -414,7 +414,7 @@ section h2 {
         -o-font-smoothing: antialiased;
         -ms-font-smoothing: antialiased;
         -webkit-font-smoothing: antialiased;
-        font-smoothing: antialiased;
+        /* font-smoothing: antialiased; */
 
         -webkit-transition: all .3s ease;
         -moz-transition: all .3s ease;
@@ -590,7 +590,7 @@ section h2 {
     background-color: transparent;
     border: 0;
     overflow: hidden;
-    *text-indent: -9999px;
+    text-indent: -9999px;
 }
 
 .ir:before {
@@ -638,10 +638,6 @@ section h2 {
 
 .clearfix:after {
     clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
 }
 
 /* ==========================================================================
@@ -698,9 +694,9 @@ section h2 {
         max-width: 100% !important;
     }
 
-    @page {
-        margin: 0.5cm;
-    }
+    /* @page { */
+    /*     margin: 0.5cm; */
+    /* } */
 
     p,
     h2,
